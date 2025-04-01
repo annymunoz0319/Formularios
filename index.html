@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DogPhotoApp</title>
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <h1>DogPhotoApp</h1>
+    <hr>
+    <p>Clica sobre la foto para ver más <a target="_blank" href="https://www.istockphoto.com/es/search/2/image?family=creative&phrase=perros">fotos perritos</a>.</p>
+    <p><a target="_blank" href="https://www.istockphoto.com/es/search/2/image-film?phrase=perritos"><img src="./img/perrito.jpg" alt="perrito" width="500px"></a></p> 
+    <table style="width:90%;">
+            <tr>
+                <th colspan="2">Síes y Noes de los Perritos</th>
+            </tr> 
+            <tr>
+                <th colspan="2">Cosas que los perros aman y odian</th>
+            </tr>
+            <tr>
+            <td style="text-align:left;">
+            <ul>
+                <li>Jugar con las pelotas</li>
+                <li>Que los lleven a pasear al parque</li>
+                <li>Comer huesos</li>
+            </ul>
+            </td>
+            <td>
+           <figure>
+           <img src="./img/snoopy-imagen-animada-0046.gif"  width="200px" alt="perrito">
+           <friocaption> <i>Los perros les gusta beber agua.</i></friocaption>
+           </figure>
+            </td>
+            <tr>
+            <td style="text-align:left;">
+            <ol>
+                <li>Los olores fuertes</li>
+                <li>Ruidos fuertes</li>
+                <li>Que les corten las uñas</li>
+            </ol>
+            </td>
+            <td>
+            <figure> 
+            <img src="./img/snoopy-imagen-animada-0079.gif"  width="200px" alt="perrito">
+            <fricaption><i>Los perros no les gusta los gatos.</i></fricaption>
+            </figure>
+            </td>
+            </tr>
+    </table>
+        
+            <h2>Encuesta sobre tu perro</h2>
+            <br>
+            <fieldset>
+                <legend>Tu perro es de estar por casa o le gusta dar paseos?</legend>
+                <label><input id="dentro" type="radio" name="lugar" value="1" checked>Casa</label>
+                <label><input id="fuera" type="radio" name="lugar" value="2" checked>Paseo</label>
+            </fieldset>
+            <br>
+           <form>
+            <fieldset>
+                <legend>Qué rasgos de caracter presenta tu perro?</legend>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Amoroso">
+                <label for="vehicle1">Amoroso</label>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Perezoso">
+                <label for="vehicle2">Perezoso</label>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Enérgico">
+                <label for="vehicle3">Enérgico</label>
+            </fieldset>
+            </form>
+            <br>
+            <fieldset>
+            <b>Sube una foto de tu perro...</b><form><label for="myfile"></label><input type="file" id="myfile" name="myfile"></form>
+            </fieldset>
+            <br>
+            <button>Enviar</button>
+            <hr>
+            No copyraigt- <a target="_blank" href="https://www.freecodecamp.org/">freeCodeCamp.org</a>
+</body>
+</html>
